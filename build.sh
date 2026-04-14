@@ -51,8 +51,6 @@ while read ALIAS; do
 done < "$ALIASES"
 echo -e "Generating shortcuts... DONE"
 
-cd "$PWD"
-
 echo -ne "Generating Theme Index...\\r"
 INDEX="$OUTPUT/../index.theme"
 if [ ! -e "$OUTPUT/../$INDEX" ]; then
@@ -60,3 +58,9 @@ if [ ! -e "$OUTPUT/../$INDEX" ]; then
     echo -e "[Icon Theme]\nName=$THEME\n" > "$INDEX"
 fi
 echo -e "Generating Theme Index... DONE"
+
+echo -ne "Cleaning up intermediate files...\\r"
+cd "$SRC"
+
+rm -vr x1 x1_25 x1_5 x2
+echo -e "Cleaning up intermediate files... DONE"
