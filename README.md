@@ -1,5 +1,5 @@
 # cefield-cursors
-Cefield cursors for my dotfiles based heavily on [Vimix-cursors](https://github.com/vinceliuice/Vimix-cursors) using the [Catppuccin Latte color palette](https://github.com/catppuccin/catppuccin#-palette).
+Cefield cursors for my dotfiles combining [Vimix-cursors](https://github.com/vinceliuice/Vimix-cursors) with the [Catppuccin Latte color palette](https://github.com/catppuccin/catppuccin#-palette).
 
 ## Installing
 The cursors are ready to use in the `dist/` directory.
